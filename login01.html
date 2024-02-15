@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Form</title>
+  <link rel="stylesheet" type="text/css" href="login01.css">
+  <script src="login01.js"></script>
+</head>
+<body>
+<div class="bg-video">
+<video src="video2.mp4" playsinline autoplay muted loop id="video">
+</video>
+</div>
+<div class="container">
+  <h2>Login Form</h2>
+  <form id="loginForm">
+    <label for="username">Username</label>
+    <input type="text" id="username" name="username" required>
+
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" required>
+   
+    <input type="submit" value="Login" onClick="myFunction" />
+    <p>You haven't created an account yet? <a href="registration01.html">Registration</a></p>
+  </form>
+  <p id="error-message" class="error-message"></p>
+</div>
+</body>
+</html>
